@@ -1,0 +1,47 @@
+.input-head {
+    width: 95%;
+    height: auto;
+    border: 2px solid rgba(0, 35, 70, 0.025);
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.137);
+    margin: 5px;
+  }
+  
+  .p-head-2 {
+    color: rgb(15, 15, 139);
+    padding: 0px;
+    width: 95%;
+    margin: 0px;
+    
+    font-size: 30px;
+
+  }
+  .p-head-add-2 {
+    color: black;
+    padding: 0px;
+    font-size: 14px;
+    margin: 0px;
+    width: 95%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .p-head-contact-2 {
+    color: black;
+    font-size: 15px;
+    padding: 0px;
+    width: 95%;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .p-head-l-2 {
+    color: white;
+    width: 95%;
+    font-size: 15px;
+    padding: 0px;
+    background-color: blueviolet;
+    margin: 1px;
+    text-align: left;
+    white-space: pre-line;
+  }
+  .p-head-l-2.h {
+    font-size: 18px;
+  }

@@ -1,0 +1,38 @@
+.input-head {
+    width: 95%;
+    height: auto;
+    border: 2px solid dodgerblue;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.137);
+    margin: 5px;
+  }
+  
+  .p-head {
+    color: black;
+    padding: 0px;
+    margin: 0px;
+  }
+  .p-head-add {
+    color: black;
+    padding: 0px;
+    font-size: 14px;
+    margin: 0px;
+  }
+  .p-head-contact {
+    color: black;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .p-head-l {
+    color: black;
+    width: 98%;
+    font-size: 15px;
+    padding: 0px;
+    margin: 1px;
+    text-align: left;
+    white-space: pre-line;
+  }
+  .p-head-l.h {
+    font-size: 18px;
+  }

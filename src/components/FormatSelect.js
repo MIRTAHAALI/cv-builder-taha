@@ -11,17 +11,18 @@ export default class FormatSelect extends React.Component {
   };
 
   handleClick = () => {
-    
-    //this.props.clickHandler(this.props.name);
+    this.props.clickHandler(1);
   };
-
+  handleClick2 = () => {
+    this.props.clickHandler(2);
+  };
   render() {
 
 
     return (
       <div className="component-fselect">
-        <button onClick={this.handleClick}>Format 1</button>
-        <button onClick={this.handleClick}>Format 2</button>
+        <button onClick={this.handleClick}>Template 1</button>
+        <button onClick={this.handleClick2}>Template 2</button>
       </div>
     );
   }

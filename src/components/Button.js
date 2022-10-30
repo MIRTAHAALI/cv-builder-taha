@@ -11,7 +11,11 @@ export default class Button extends React.Component {
   };
 
   handleClick = () => {
-    this.props.clickHandler(this.props.name);
+    this.props.clickHandler({
+      total: 123,
+      next: 3221,
+      operation: 231,
+    });
   };
 
   render() {
