@@ -52,6 +52,18 @@ export default class App extends React.Component {
       })
     }
   }
+
+  saveToBackEnd = item => {
+      // Simple POST request with a JSON body using fetch
+      const requestOptions = {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(this.state)
+      };
+      fetch('http://localhost:4000/save', requestOptions)
+          .then(response => response.json())
+          .then(data => console.log(data));
+  }
   render() {
     return (
       <div className="App-header">
@@ -72,6 +84,7 @@ export default class App extends React.Component {
           education: this.state.education
         }} />
         <FormatSelect details={this.state} clickHandler={this.changeTemplate}/>
+        <button className='saveButton' onClick={this.saveToBackEnd}>Save</button>
         <input onChange={this.updateStates} className='min-inputs' placeholder='Enter Name' name='name'></input>
         <input onChange={this.updateStates} className='min-inputs' placeholder='Enter Email Address' name='email'></input>
         <input onChange={this.updateStates} className='min-inputs' placeholder='Enter Phone' name='phone'></input>
